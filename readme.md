@@ -38,7 +38,7 @@ Ensure you have **Python 3.8+** installed.
 ### Setup
 #### 1. Clone the repository
 ```sh
-git clone https://github.com/your-repo/harley-ai-maintenance.git
+git@github.com:lhcorreaz08/HD-wizeline-hackathon.git
 cd harley-ai-maintenance
 ```
 
