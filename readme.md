@@ -63,23 +63,21 @@ streamlit run app.py
 ```
 
 ## How It Works
+1. **User enters a query** related to motorcycle maintenance.
+2. **The AI model determines** if the query should:
+   - Retrieve relevant information from the **motorcycle manual**.
+   - Provide the location of a **service center** (mock data).
+3. **The response is displayed** with either maintenance instructions or a **map of the nearest service center**.
+
+### Examples: 
+
 1. **Querying the Maintenance Manual** - The assistant extracts relevant details from the manual based on the user's question.
 ![image](https://github.com/user-attachments/assets/054ba8c2-4b86-49e7-ae06-283c5ebc0c2c)
 2. **Understanding Dashboard Messages** - The system helps decode warning messages displayed on the motorcycle.
 ![image](https://github.com/user-attachments/assets/c57bc5d1-25b9-4eae-aa0a-3860adde24e5)
 3. **Finding the Nearest Service Center** - When needed, the assistant provides the closest service location using map integration.
 ![image](https://github.com/user-attachments/assets/859aad06-f3a0-4f6a-a444-802fcdb2d289)
-4. **User enters a query** related to motorcycle maintenance.
-5. **The AI model determines** if the query should:
-   - Retrieve relevant information from the **motorcycle manual**.
-   - Provide the location of a **service center** (mock data).
-6. **The response is displayed** with either maintenance instructions or a **map of the nearest service center**.
 
-![image](https://github.com/user-attachments/assets/a5a0e45d-ac9b-4fd0-9f51-f9bbaafea2b6)
-
-![image](https://github.com/user-attachments/assets/3123e2a6-3ee3-4a75-b813-d7bb3dcdf0e7)
-
-![image](https://github.com/user-attachments/assets/c58771d0-fec6-4ea4-8636-9710c5427673)
 
 ## Future Enhancements
 - **Integrate real-time service center data** from Harley-Davidson API.
